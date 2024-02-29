@@ -28,6 +28,7 @@ async function getConnectionInfo() {
     }
   }
 
+  // test
   // To override the database name, set the DATABASE_NAME environment variable in the .env file
   const DATABASE_NAME = process.env.DATABASE_NAME || "azure-todo-app";
 
