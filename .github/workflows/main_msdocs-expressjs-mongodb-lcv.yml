@@ -59,4 +59,4 @@ jobs:
           app-name: 'msdocs-expressjs-mongodb-lcv'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F1C8BFD347CD4D7FA8194BEC58AF9E2D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC2E92B3F7614D73B85E44BC9C05785E }}
