@@ -18,7 +18,7 @@ async function getApp() {
 
   var app = express();
 
-  var port = normalizePort(process.env.PORT || '3000');
+  var port = normalizePort(process.env.PORT || '5000');
   app.set('port', port);
 
   // view engine setup
@@ -80,3 +80,7 @@ async function getApp() {
 module.exports = {
   getApp
 };
+
+app.listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
+  });
